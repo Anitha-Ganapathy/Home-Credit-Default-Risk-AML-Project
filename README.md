@@ -8,6 +8,10 @@ The files in this repository are:
 1. Group1_Phase3_PyTorch Deep Learning.html
 2. Group1_Phase3_PyTorch Deep Learning.ipynb
 3. Group1_Phase3_PyTorch Deep Learning.pptx
+4. Group1_Phase2_Feature_Engr_Hyperparameter_Tuning.ipynb
+5. Group1_Phase2_Feature_Engr_Hyperparameter_Tuning.html
+6. Group1_Phase1_EDA_Baseline.ipynb
+7. Group1_Phase1_EDA_Baseline.html
 
 
 ## **Discussion of Results** <br>
