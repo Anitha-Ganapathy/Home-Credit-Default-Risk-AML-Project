@@ -8,3 +8,34 @@ The files in this repository are:
 1. Group1_Phase3_PyTorch Deep Learning.html
 2. Group1_Phase3_PyTorch Deep Learning.ipynb
 3. Group1_Phase3_PyTorch Deep Learning.pptx
+
+
+Discussion of Results
+As you can see in the Experimental Results Final results we have performed various feature selection technique like (RFE, PCA, Variance Threshold, SelectKBest, SMOTE) on certain specific models with 132 highly correlated features. Below is brief description of results attained in these experiments.
+
+Our best model turned out to be Logistic Regression with SelectKBest with 74.86% ROC score. Our hopes were higher on XGBoost classifier but it stood out to be second best in our models.
+
+Our Deep Learning of simple network preformed model better than the multilayer network. The ROC score came as 74.6% for the simple network. For multilayer network our score came as 59.38%.
+
+Compared to traditional machine learning model, deep learning model trained on completed dataset much faster.
+
+Below has more details or the various classifiers executed in this project.
+
+Logistic Regression : This model was chosen as the baseline model trained with imbalanced dataset and later performed feature selection using RFE, SelectKBest, PCA & Variance Threshold technique on it. The baseline training accuracy for this model was encouraging which let us to perform the prior mentioned feature selection on these models. The best model for logistic regression we had is with Variance Threshold, with training accuracy as 92.56% and test accuracy as 92.2%. A 75.22% ROC score resulted with best parameters for this model. The same model was run with other feature selection performed very closer to the best model.
+
+Gradient Boosting : Boosting didn't help in achieving better results than the baseline model. The results were not good enough to continue in implementing & evaluating other feature selection technique. Training accuracy of 94.75% and test accuracy of 91.95% was achieved in this model. Test ROC under the curve for this model came out to 72.12%
+
+XGBoost : By far this model resulted in the second best model with RFE hence we continued to explore other feature selection techniques on this. The best performing model for XGBoost was with Variance Threshold. The accuracy of the training and test are 93.1% and test 92.36%. Test ROC under the curve is 73.88%. The other feature selection were very closer to the best XGBoost model. We also performed XGBoost with SMOTE as the dataset had oversampled records. The ROC score has promising result with 74.23%.
+
+Light BGM : Our expectation was this model would give us better and faster results than XGBoost, however it was slightly lower compared to XGBoost. Both RFE and variance threshold feature selection resulted in same ROC score of 72.2. The training accuracy came as 92.81% and test accuracy 92.28% was achieved.
+
+Random Forest : On our last decision tree models, the best Random Forest was with variance threshold which produced training accuracy of 92.51% and test accuracy of 92.36%. Test ROC score came out as 72.43%. Random forest performed better compared to LightBGM but lower than XGBoost.
+
+SVM : This was the lowest performing model in our experiment. Hence we didn't decide to continue on SVM with other feature selection techniques. The ROC score achieved for this model was way lower i.e. is 67.21%.
+
+Conclusion
+In the final phase, after proving our hypothesis that tuned machine learning techniques can outperform baseline models to aid Home Credit in their evaluation of loan applications, we believe expanding our framework will create a more robust environment with improved performance.
+
+Logistic regression, XGBoost, Random Forest and LightGBM were selected to run with RFE, PCA, SelectKBest and Variance Threshold for feature selection, and SMOTE for data imbalance. The best performance for each algorithm was included in the classification ensemble using soft voting. The resulting Kaggle score was 0.72592 ROC_AUC.
+
+Single and Multi-layer deep learning models, including linear, sigmoid, ReLu, and hidden layers were added with binary CXE, custom hinge loss using adam & sgd optimizer. The deep learning Kaggle score fell short of the ensemble model; additional experimentation will result in a better performing deep learning models. By combining and continuing to refine our extended loss function, we can further demonstrate our effectiveness.
