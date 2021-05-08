@@ -1,6 +1,7 @@
 # Home-Credit-Default-Risk-AML-Project
 
-![image][https://user-images.githubusercontent.com/61594650/117523674-a0e8f700-af87-11eb-9843-c55244af8257.png](https://youtu.be/TXh4owKBE3o)
+![image](https://user-images.githubusercontent.com/61594650/117523778-16ed5e00-af88-11eb-8914-31021617d53a.png)
+(https://youtu.be/TXh4owKBE3o)
 
 
 This is an academic project which we completed as a part of Applied Machine Learning Course from Indiana University, Bloomington
