@@ -1,5 +1,7 @@
 # Home-Credit-Default-Risk-AML-Project
 
+This is an academic project which we completed as a part of Applied Machine Learning Course from Indiana University, Bloomington
+
 ## **Abstract**
 The objective of this project is to use machine learning methodologies on historical loan application data to predict whether or not an applicant will be able to repay a loan. As an extension to EDA and hyper-tuned model, this phase provided valuable insights when feature engineering was modified to handle data leakage employing a better data processing flow. Multiple experiments were conducted applying feature selection techniques including RFE, SelecKbest, Variance threshold to Logistic regression, Gradient Boosting, XGBoost, LightGBM & SVM models , further handling class imbalance using SMOTE for XGBoost , monitoring error generalization with early stopping and building high performance Neural Networks . Our results in this phase show that the best performing algorithm was Logistic Regerssion with varaince threshold selection with test ROC_AOC as 75.22%. The lowest performing was SVM model with test AUC(Area under ROC) as 67.21%. Our best score in Kaggle submission was for Logistic Regression with SelectKBest with score of 0.72158 for private and 0.72592 for public.
 
@@ -49,3 +51,9 @@ In the final phase, after proving our hypothesis that tuned machine learning tec
 Logistic regression, XGBoost, Random Forest and LightGBM were selected to run with RFE, PCA, SelectKBest and Variance Threshold for feature selection, and SMOTE for data imbalance. The best performance for each algorithm was included in the classification ensemble using soft voting. The resulting Kaggle score was 0.72592 ROC_AUC.
 
 Single and Multi-layer deep learning models, including linear, sigmoid, ReLu, and hidden layers were added with binary CXE, custom hinge loss using adam & sgd optimizer. The deep learning Kaggle score fell short of the ensemble model; additional experimentation will result in a better performing deep learning models. By combining and continuing to refine our extended loss function, we can further demonstrate our effectiveness.
+
+## **Contributors** <br>
+1. Anitha Ganapathy
+2. Archana Krishnamurthy
+3. Bathurunnisha Abdul Jabar
+4. Rajesh Thanji
