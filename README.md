@@ -1,5 +1,5 @@
 # Home-Credit-Default-Risk-AML-Project 
-[![image](<img src="https://user-images.githubusercontent.com/61594650/117523778-16ed5e00-af88-11eb-8914-31021617d53a.png" width="50" height="50">)](https://youtu.be/TXh4owKBE3o)
+[![image](<img src="https://user-images.githubusercontent.com/61594650/117523778-16ed5e00-af88-11eb-8914-31021617d53a.png" width="50" height="50">](https://youtu.be/TXh4owKBE3o)
 
 
 This is an academic project which we completed as a part of Applied Machine Learning Course from Indiana University, Bloomington
