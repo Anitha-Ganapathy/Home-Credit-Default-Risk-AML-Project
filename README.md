@@ -1,5 +1,5 @@
 # Home-Credit-Default-Risk-AML-Project 
-![image](https://user-images.githubusercontent.com/61594650/117524063-d393ef00-af89-11eb-9b04-fa1afae4dd9d.png)(https://youtu.be/TXh4owKBE3o)
+[![image](https://user-images.githubusercontent.com/61594650/117524063-d393ef00-af89-11eb-9b04-fa1afae4dd9d.png)](https://youtu.be/TXh4owKBE3o)
 
 
 
