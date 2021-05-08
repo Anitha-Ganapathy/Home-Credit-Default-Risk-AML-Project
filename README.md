@@ -1,4 +1,5 @@
 # Home-Credit-Default-Risk-AML-Project
+[![Img](https://images.app.goo.gl/7c1FmcER6JfHuJGA7](https://youtu.be/TXh4owKBE3o)
 
 This is an academic project which we completed as a part of Applied Machine Learning Course from Indiana University, Bloomington
 
